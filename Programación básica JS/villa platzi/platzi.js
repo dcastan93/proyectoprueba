@@ -2,6 +2,7 @@ var vp = document.getElementById("villaplatzi");
 var papel = vp.getContext("2d");
 var mapa = "tile.png";
 
+
 var fondo = new Image();
 fondo.src = mapa;
 fondo.addEventListener("load", dibujar);
